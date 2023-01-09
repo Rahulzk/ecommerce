@@ -1,0 +1,22 @@
+.feature-container{
+    margin: 20px 0;
+}
+/* .main-container{
+    width: 80%;
+} */
+
+.feature-product-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.intro-data{
+    padding-top: 25px;
+    color:rgb(96, 91, 230);
+}
+
+.common-heading{
+    font-size: 1.7rem;
+    font-weight: 600;
+}

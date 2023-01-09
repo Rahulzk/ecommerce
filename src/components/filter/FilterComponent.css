@@ -1,0 +1,9 @@
+.category-btn{
+    border : none;
+    font-size: 18px;
+}
+
+.active{
+    border-bottom: 2px solid rgb(96, 91, 230);
+    color: rgb(96, 91, 230);
+}

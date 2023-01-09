@@ -1,0 +1,29 @@
+.wrapper{
+    height: 15rem;
+    padding: 2rem 0;
+    margin-top: 20px;
+    border-radius: 1rem;
+}
+
+.brand-section {
+    padding: 12rem 0 0 0;
+  }
+  h3 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  img {
+    min-width: 10rem;
+    height: 6rem;
+  }
+
+  .brand-section-slider {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  }
+ 

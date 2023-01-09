@@ -1,0 +1,46 @@
+.banner-container{
+    height: 400px;    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-banner{
+   
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+}
+.left-wrapper{
+    width: 60%;
+}
+
+.right-banner{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+
+.hero-image{
+    height: 200px;
+}
+
+figure {
+    position: relative;
+    
+  }
+
+  figure::after {
+    content: "";
+    width: 60%;
+    height: 80%;
+    background-color: rgba(81, 56, 238, 0.4);
+    position: absolute;
+    left: 50%;
+    top: -2rem;
+    z-index: -1;
+  }
+
+  button:hover{
+    color:"#fff"
+  }

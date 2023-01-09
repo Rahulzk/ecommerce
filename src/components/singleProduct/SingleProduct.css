@@ -1,0 +1,40 @@
+.single-product-container{
+    cursor: pointer;
+}
+
+.product-detail-image{
+    height: 7rem;
+    width: 4rem;
+}
+
+
+.product-data-warranty {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 1rem;
+    
+  }
+
+.warranty-icon {
+    background-color: rgba(220, 220, 220, 0.5);
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    padding: 0.6rem;
+}
+
+.product-warranty-data>p{
+    font-size: 15px;
+    padding-top: 0.4rem;
+}
+.single-large-container{
+    display: flex;
+    align-items: center;
+}
+.single-large-image{
+    height: 12rem;
+    width: 16rem;
+}

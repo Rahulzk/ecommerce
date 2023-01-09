@@ -1,0 +1,36 @@
+
+.header-container{
+    height: 3.5rem;
+    width: 100vw;
+    background-color: #F6F8FA;
+}
+
+
+.nav-link{
+    color:black;
+    font-weight: 600;
+}
+.nav-link:active{
+    color: rgb(96, 91, 230);;
+}
+.nav-link:hover
+{
+    color: rgb(96, 91, 230);
+}
+.cart-icon{
+    font-size: 1.4rem;
+}
+.cart-item-number{
+    height: fit-content;
+    width: 25px;
+    border-radius: 50%;
+    font-size: 1.1rem;
+    margin-left: 12px;
+    margin-top: -36px;
+    z-index: 2;
+    background-color: rgb(122, 150, 235);
+
+}
+.cart-item-number:hover{
+    color: #fff;
+}
